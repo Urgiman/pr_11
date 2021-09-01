@@ -1,0 +1,37 @@
+body {
+    background: #000;
+}
+.card-header {
+    background: #006271;
+    color: #fff;
+}
+.card-title {
+    color: #fff;
+}
+.card-body {
+    background: #000;
+}
+.card-footer {
+    background: #820000;
+    transition: .3s;
+}
+.card-footer:hover {
+    background: #ff2727;
+}
+.card-footer button {
+    color: #fff;
+    transition: .3s;
+}
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+#btnEqual {
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    border-top: 0;
+    border-bottom: 0;
+}
+.btn {
+    border-radius: 10px;
+}
