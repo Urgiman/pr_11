@@ -6,10 +6,8 @@ alert(`Загадайте любое целое число от ${minValue} до
 let answerNumber  = Math.floor((minValue + maxValue) / 2);
 let orderNumber = 1;
 let gameRun = true;
-
 const orderNumberField = document.getElementById('orderNumberField');
 const answerField = document.getElementById('answerField');
-
 orderNumberField.innerText = orderNumber;
 answerField.innerText = `Вы загадали число ${answerNumber }?`;
 
